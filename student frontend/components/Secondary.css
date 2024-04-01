@@ -1,0 +1,97 @@
+.messageBlock {
+    padding: 10px 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    color: #000d;
+    font-style: normal;
+    box-shadow:
+        14.6px 15.9px 10px rgba(0, 0, 0, 0.042),
+        57px 62px 80px rgba(0, 0, 0, 0.06);
+    margin: 15px auto;
+    border: 1px #00000045 solid;
+    width: 60%;
+    min-height: 120px;
+    max-height: 100%;}
+
+.secondaryBlock {
+    height: 97%;
+    width: 40%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    overflow-y: auto;
+}
+
+.newblock {
+    height: 100%;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.question,
+.answer {
+    padding: 8px;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 10px auto;
+}
+
+.question {
+    font-size: 16px;
+}
+
+.nameBlock {
+    font-size: 40px;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+}
+
+.namesBlock {
+    color: #000a;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    padding: 3px;
+}
+
+.replpyBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.replyBlock {
+    padding: 8px 12px;
+    color: #fff;
+    background-color: #0a84a1;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+@media(width <700px) {
+    .secondaryBlock {
+        width: 100%;
+    }
+
+    .messageBlock {
+        width: auto;
+    }
+}
+.heading{
+    font-size: 25px;
+  }
