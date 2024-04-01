@@ -1,0 +1,21 @@
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 15px;
+  resize: none;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+hr {
+  width: 1px;
+  background-color: #00000096;
+  height: 500px;
+}
+
